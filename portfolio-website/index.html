@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradyun's Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero" class="parallax">
+        <div id="particles-js"></div>
+        <div class="content">
+            <h1 class="scroll-reveal">Pradyun Kumar Sinha</h1>
+        </div>
+    </section>
+    
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="scroll-reveal">
+        <h2>About Me</h2>
+        <p>As a full-stack developer, I thrive on the challenge of creating seamless and dynamic digital experiences. My work bridges the gap between front-end aesthetics and back-end functionality, allowing me to build applications from the ground up. I take pride in crafting intuitive user interfaces while ensuring robust and efficient server-side operations. With a versatile skill set spanning multiple programming languages, frameworks, and databases, I can tackle every layer of development. Staying up-to-date with the latest technologies is a passion of mine, as it enables me to innovate and deliver solutions that are both cutting-edge and impactful. For me, every project is an opportunity to learn, create, and bring ideas to life.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <div id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill">
+                <svg>...</svg> <!-- Skill Icon -->
+                <h3>HTML</h3>
+                <div class="skill-details">
+                    <p>Expert in creating responsive websites and user interfaces.</p>
+                </div>
+            </div>
+            <div class="skill">
+                <svg>...</svg> <!-- Skill Icon -->
+                <h3>CSS</h3>
+                <div class="skill-details">
+                    <p>Experienced with creating beautiful, interactive designs.</p>
+                </div>
+            </div>
+            <div class="skill">
+                <svg>...</svg> <!-- Skill Icon -->
+                <h3>JavaScript</h3>
+                <div class="skill-details">
+                    <p>Proficient in building dynamic and interactive web pages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-wrapper">
+            <div class="project-card">
+                <img src="https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg" alt="Project 1" class="project-image">
+                <h3>AI model</h3>
+                <p>A working prediction AI model</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared" target="_blank" class="project-link">View Project</a>
+            </div>
+    
+            <div class="project-card">
+                <img src="https://th.bing.com/th/id/OIP.mdKJwxRwCN2eGwRGig4l6wHaEK?w=296&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Project 2" class="project-image">
+                <h3>Phone no. dettector</h3>
+                <p>Shows the live location of the device/no.</p>
+                <a href="https://youtu.be/vlBC86ShSg8?feature=shared" target="_blank" class="project-link">View Project</a>
+            </div>
+    
+            <div class="project-card">
+                <img src="https://th.bing.com/th/id/OIP.a4drl37FQ-GE2jjiD1IrDAHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Project 3" class="project-image">
+                <h3>Car-Hub</h3>
+                <p>A website where the users talk about cars.</p>
+                <a href="https://youtu.be/aME59AhOtjM?feature=shared" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>    
+    
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Include Particle.js (for hero background effect) -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <script>
+        // Scroll reveal animations
+        const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+
+        window.addEventListener('scroll', () => {
+            scrollRevealElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                    el.classList.add('scroll-reveal-visible');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
