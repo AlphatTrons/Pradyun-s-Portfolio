@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+public/
+.cache/
+
+# Dependency directories
+.bower_components/
+jspm_packages/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Images and uploads
+uploads/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
+# Tests and coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporary files and folders
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Typescript
+*.tsbuildinfo
+
+# React and Next.js specific
+.next/
+out/
+
+# Miscellaneous
+*.log
+*.lock
